@@ -7,6 +7,7 @@ using SupermarkerWEB.Models;
 
 namespace SupermarkerWEB.Pages.Providers
 {
+    [Authorize]
     public class IndexModel : PageModel
     {
         private readonly SupermarketContext _context;
