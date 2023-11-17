@@ -12,6 +12,7 @@ namespace SupermarkerWEB.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<PayMode> PayMode { get; set; }
+        public DbSet<Provider> Provider { get; set; }
 
     }
 }
