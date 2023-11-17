@@ -10,7 +10,7 @@ namespace SupermarkerWEB.Models
         [Column(TypeName = "decimal(6,2)")]
         public decimal Price { get; set; }
         public int Stock { get; set; }
-        public int CategoryId { get; set; } //Sera la llave primaria
-        public Category Category { get; set; } // Propiedad de Navegación
+        public int? CategoryId { get; set; } //Sera la llave primaria
+        public Category? Category { get; set; } // Propiedad de Navegación
     }
 }
